@@ -20,11 +20,11 @@ Written entirely in Python3, Sparrow-wifi has been designed for the following sc
 A few sample screenshots.  The first is the main window showing a basic wifi scan, the second shows the telemetry/tracking window used for both Wifi and bluetooth tracking.
 
 <p align="center">
-  <img src="https://github.com/ghostop14/sparrow-wifi/blob/master/sparrow-screenshot.png" width="800"/>
+  <img src="https://github.com/thorus_slughorm/sparrow-wifi/blob/master/sparrow-screenshot.png" width="800"/>
 </p>
 
 <p align="center">
-  <img src="https://github.com/ghostop14/sparrow-wifi/blob/master/telemetry-screenshot.png" width="600"/>
+  <img src="https://github.com/thorus_slughorm/sparrow-wifi/blob/master/telemetry-screenshot.png" width="600"/>
 </p>
 
 ## New Features
@@ -64,7 +64,7 @@ sudo pip3 install QScintilla gps3 dronekit manuf python-dateutil numpy matplotli
 
 Some folks have been running sparrow with a python virtualenv, if you'd like to run it in an isolated python environment, the following sequence should get you up and running:
 ```
-git clone https://github.com/ghostop14/sparrow-wifi
+git clone https://github.com/thorus_slughorm/sparrow-wifi
 cd sparrow-wifi
 virtualenv --python=python3 $HOME/sparrow
 source $HOME/sparrow/bin/activate
